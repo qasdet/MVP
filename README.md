@@ -1312,15 +1312,3 @@ See [Contributing](CONTRIBUTING.md) file.
 
 Thanks to our contributors!
 
-* @p0w3rsh3ll
-* @Windos
-* @JPRuskins
-
-<a name="MoreInformation"/>
-
-## More Information
-
-* [Microsoft - mvpapi.portal.azure-api.net](https://mvpapi.portal.azure-api.net/)
-* [Microsoft - mvp-api-video](https://aka.ms/mvp-api-video)
-* [MVP.PSGitHub module](https://github.com/markekraus/MVP.PSGitHub/) by @markekraus - PowerShell Utility Functions for Adding PowerShell GitHub Contributions to the Microsoft MVP API
-* [Update Youtube video contributions script](https://github.com/julioarruda/UpdateMVPContributions) by @julioarruda - PowerShell script to update the View count in existing Microsoft MVP Contributions

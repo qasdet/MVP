@@ -3,7 +3,7 @@ Function Show-MVPOAuthWindow {
 .SYNOPSIS
     Function to show the Microsoft Authentication window
 .NOTES
-    https://github.com/lazywinadmin/MVP
+    https://github.com/#/MVP
 
     #Credit to https://raw.githubusercontent.com/1RedOne/PSWordPress/master/Private/Show-oAuthWindow.ps1
 #>

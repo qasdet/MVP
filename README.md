@@ -2,7 +2,7 @@
 
 ![](media/MicrosoftMVPLogo.png)
 
-[![Build Status](https://dev.azure.com/lazywinadmin/MVP/_apis/build/status/lazywinadmin.MVP?branchName=master)](https://dev.azure.com/lazywinadmin/MVP/_build/latest?definitionId=18&branchName=master)
+[![Build Status](https://dev.azure.com/#/MVP/_apis/build/status/#.MVP?branchName=master)](https://dev.azure.com/#/MVP/_build/latest?definitionId=18&branchName=master)
 
 PowerShell Module to interact with the Microsoft MVP API and manage your contributions (Get, Add, Update and Remove), retrieve contributions type and technologies, retrieve a mvp profile and maintain your online identities.
 
@@ -124,7 +124,7 @@ Get-MVPProfile -ID 5000475
 ```
 
 ```
-Metadata             : @{PageTitle=Francois-Xavier Cat is a Microsoft MVP in PowerShell who has been in the IT field since 2007. He is currently an
+Metadata             : @{PageTitle=# Cat is a Microsoft MVP in PowerShell who has been in the IT field since 2007. He is currently an
                        Automation Specialist in a large Financial company.; TemplateName=; Keywords=; Description=}
 MvpId                : 5000475
 YearsAsMvp           : 4
@@ -132,16 +132,16 @@ FirstAwardYear       : 2014
 AwardCategoryDisplay : Cloud and Datacenter Management
 TechnicalExpertise   :
 InTheSpotlight       : False
-Headline             : Francois-Xavier Cat is a Microsoft MVP in PowerShell who has been in the IT field since 2007. He is currently an Automation
+Headline             : # Cat is a Microsoft MVP in PowerShell who has been in the IT field since 2007. He is currently an Automation
                        Specialist in a large Financial company.
-Biography            : Francois-Xavier Cat is from France but has been living in Montreal, Quebec, Canada since 2004.
+Biography            : # Cat is from France but has been living in Montreal, Quebec, Canada since 2004.
 
                        In 2014, He was concurrently awarded his first MVP PowerShell by Microsoft and PowerShell Hero 2014 award by PowerShell.org.
                        In 2015, he was also nominated Sapien Technologies MVP.
 
-                       You can follow his blog at http://lazywinadmin.com
-DisplayName          : Francois-Xavier Cat
-FullName             : Francois-Xavier Cat
+                       You can follow his blog at http://#.com
+DisplayName          : # Cat
+FullName             : # Cat
 PrimaryEmailAddress  :
 ShippingCountry      : Canada
 ShippingStateCity    : Montreal, QC
@@ -149,7 +149,7 @@ Languages            : French, English
 OnlineIdentities     : {@{PrivateSiteId=39435; SocialNetwork=; Url=https://www.facebook.com/fxavierc; OnlineIdentityVisibility=;
                        ContributionCollected=False; DisplayName=; UserId=; MicrosoftAccount=; PrivacyConsentStatus=False;
                        PrivacyConsentCheckStatus=False; PrivacyConsentCheckDate=; PrivacyConsentUnCheckDate=; Submitted=False},
-                       @{PrivateSiteId=74012; SocialNetwork=; Url=https://www.facebook.com/lazywinadmin; OnlineIdentityVisibility=;
+                       @{PrivateSiteId=74012; SocialNetwork=; Url=https://www.facebook.com/#; OnlineIdentityVisibility=;
                        ContributionCollected=False; DisplayName=; UserId=; MicrosoftAccount=; PrivacyConsentStatus=True;
                        PrivacyConsentCheckStatus=False; PrivacyConsentCheckDate=; PrivacyConsentUnCheckDate=; Submitted=False},
                        @{PrivateSiteId=56689; SocialNetwork=; Url=http://klout.com/LazyWinAdm; OnlineIdentityVisibility=;
@@ -164,7 +164,7 @@ CommunityAwards      : {@{PrivateSiteId=12499; Title=SAPIEN MVP; Description="SA
                        recognize and show
                        our appreciation for community members who promote our products and contribute
                        to their improvement and success."; DateEarned=2015-01-16T00:00:00;
-                       ReferenceUrl=http://www.sapien.com/company/mvp/13/Francois-Xavier_Cat; AwardRecognitionVisibility=}, @{PrivateSiteId=6179;
+                       ReferenceUrl=http://www.sapien.com/company/mvp/13/#_Cat; AwardRecognitionVisibility=}, @{PrivateSiteId=6179;
                        Title=PowerShell Hero; Description=; DateEarned=2014-01-08T00:00:00;
                        ReferenceUrl=http://powershell.org/wp/2014/01/08/announcing-our-2014-powershell-heroes/; AwardRecognitionVisibility=}}
 NewsHighlights       : {}
@@ -1042,7 +1042,7 @@ $Splat = @{
 StartDate ='2020/10/20'
 Title='Test from mvpapi.azure-api.net'
 Description = 'Description sample'
-ReferenceUrl='https://github.com/lazywinadmin/MVP'
+ReferenceUrl='https://github.com/#/MVP'
 AnnualQuantity='1'
 SecondAnnualQuantity='0'
 AnnualReach = '0'
@@ -1063,7 +1063,7 @@ ContributionTechnology : @{Id=7cc301bb-189a-e411-93f2-9cb65495d3c4; Name=PowerSh
 AdditionalTechnologies : {}
 StartDate              : 2020-10-20T00:00:00
 Title                  : Test from mvpapi.azure-api.net
-ReferenceUrl           : https://github.com/lazywinadmin/MVP
+ReferenceUrl           : https://github.com/#/MVP
 Visibility             : @{Id=299600000; Description=Public; LocalizeKey=}
 AnnualQuantity         : 1
 SecondAnnualQuantity   : 0
@@ -1092,16 +1092,16 @@ __From a CSV__
 CSV Content [(file)](Examples/):
 ```
 startdate,title,description,referenceurl,AnnualQuantity,SecondAnnualQuantity,AnnualReach,Visibility,ContributionType,ContributionTechnology
-2020-12-01,Test1,Some content,https://github.com/lazywinadmin/MVP,1,0,0,Everyone,Blog/Website Post,PowerShell
-2020-12-02,Test2,Some content,https://github.com/lazywinadmin/MVP,1,0,0,Everyone,Blog/Website Post,PowerShell
-2020-12-03,Test3,Some content,https://github.com/lazywinadmin/MVP,1,0,0,Everyone,Blog/Website Post,PowerShell
-2020-12-04,Test4,Some content,https://github.com/lazywinadmin/MVP,1,0,0,Everyone,Blog/Website Post,PowerShell
-2020-12-05,Test5,Some content,https://github.com/lazywinadmin/MVP,1,0,0,Everyone,Blog/Website Post,PowerShell
-2020-12-06,Test6,Some content,https://github.com/lazywinadmin/MVP,1,0,0,Everyone,Blog/Website Post,PowerShell
-2020-12-07,Test7,Some content,https://github.com/lazywinadmin/MVP,1,0,0,Everyone,Blog/Website Post,PowerShell
-2020-12-08,Test8,Some content,https://github.com/lazywinadmin/MVP,1,0,0,Everyone,Blog/Website Post,PowerShell
-2020-12-09,Test9,Some content,https://github.com/lazywinadmin/MVP,1,0,0,Everyone,Blog/Website Post,PowerShell
-2020-12-10,Test10,Some content,https://github.com/lazywinadmin/MVP,1,0,0,Everyone,Blog/Website Post,PowerShell
+2020-12-01,Test1,Some content,https://github.com/#/MVP,1,0,0,Everyone,Blog/Website Post,PowerShell
+2020-12-02,Test2,Some content,https://github.com/#/MVP,1,0,0,Everyone,Blog/Website Post,PowerShell
+2020-12-03,Test3,Some content,https://github.com/#/MVP,1,0,0,Everyone,Blog/Website Post,PowerShell
+2020-12-04,Test4,Some content,https://github.com/#/MVP,1,0,0,Everyone,Blog/Website Post,PowerShell
+2020-12-05,Test5,Some content,https://github.com/#/MVP,1,0,0,Everyone,Blog/Website Post,PowerShell
+2020-12-06,Test6,Some content,https://github.com/#/MVP,1,0,0,Everyone,Blog/Website Post,PowerShell
+2020-12-07,Test7,Some content,https://github.com/#/MVP,1,0,0,Everyone,Blog/Website Post,PowerShell
+2020-12-08,Test8,Some content,https://github.com/#/MVP,1,0,0,Everyone,Blog/Website Post,PowerShell
+2020-12-09,Test9,Some content,https://github.com/#/MVP,1,0,0,Everyone,Blog/Website Post,PowerShell
+2020-12-10,Test10,Some content,https://github.com/#/MVP,1,0,0,Everyone,Blog/Website Post,PowerShell
 ```
 
 ```powershell
@@ -1119,7 +1119,7 @@ ContributionType       : @{Id=df6464de-179a-e411-bbc8-6c3be5a82b68; Name=Blog Si
 ContributionTechnology : @{Id=7cc301bb-189a-e411-93f2-9cb65495d3c4; Name=PowerShell; AwardName=; AwardCategory=}
 StartDate              : 2017-12-01T00:00:00
 Title                  : Test1
-ReferenceUrl           : https://github.com/lazywinadmin/MVP
+ReferenceUrl           : https://github.com/#/MVP
 Visibility             : @{Id=299600000; Description=Public; LocalizeKey=}
 AnnualQuantity         : 1
 SecondAnnualQuantity   : 0
@@ -1132,7 +1132,7 @@ ContributionType       : @{Id=df6464de-179a-e411-bbc8-6c3be5a82b68; Name=Blog Si
 ContributionTechnology : @{Id=7cc301bb-189a-e411-93f2-9cb65495d3c4; Name=PowerShell; AwardName=; AwardCategory=}
 StartDate              : 2017-12-02T00:00:00
 Title                  : Test2
-ReferenceUrl           : https://github.com/lazywinadmin/MVP
+ReferenceUrl           : https://github.com/#/MVP
 Visibility             : @{Id=299600000; Description=Public; LocalizeKey=}
 AnnualQuantity         : 1
 SecondAnnualQuantity   : 0
@@ -1145,7 +1145,7 @@ ContributionType       : @{Id=df6464de-179a-e411-bbc8-6c3be5a82b68; Name=Blog Si
 ContributionTechnology : @{Id=7cc301bb-189a-e411-93f2-9cb65495d3c4; Name=PowerShell; AwardName=; AwardCategory=}
 StartDate              : 2017-12-03T00:00:00
 Title                  : Test3
-ReferenceUrl           : https://github.com/lazywinadmin/MVP
+ReferenceUrl           : https://github.com/#/MVP
 Visibility             : @{Id=299600000; Description=Public; LocalizeKey=}
 AnnualQuantity         : 1
 SecondAnnualQuantity   : 0
@@ -1158,7 +1158,7 @@ ContributionType       : @{Id=df6464de-179a-e411-bbc8-6c3be5a82b68; Name=Blog Si
 ContributionTechnology : @{Id=7cc301bb-189a-e411-93f2-9cb65495d3c4; Name=PowerShell; AwardName=; AwardCategory=}
 StartDate              : 2017-12-04T00:00:00
 Title                  : Test4
-ReferenceUrl           : https://github.com/lazywinadmin/MVP
+ReferenceUrl           : https://github.com/#/MVP
 Visibility             : @{Id=299600000; Description=Public; LocalizeKey=}
 AnnualQuantity         : 1
 SecondAnnualQuantity   : 0
@@ -1171,7 +1171,7 @@ ContributionType       : @{Id=df6464de-179a-e411-bbc8-6c3be5a82b68; Name=Blog Si
 ContributionTechnology : @{Id=7cc301bb-189a-e411-93f2-9cb65495d3c4; Name=PowerShell; AwardName=; AwardCategory=}
 StartDate              : 2017-12-05T00:00:00
 Title                  : Test5
-ReferenceUrl           : https://github.com/lazywinadmin/MVP
+ReferenceUrl           : https://github.com/#/MVP
 Visibility             : @{Id=299600000; Description=Public; LocalizeKey=}
 AnnualQuantity         : 1
 SecondAnnualQuantity   : 0
@@ -1184,7 +1184,7 @@ ContributionType       : @{Id=df6464de-179a-e411-bbc8-6c3be5a82b68; Name=Blog Si
 ContributionTechnology : @{Id=7cc301bb-189a-e411-93f2-9cb65495d3c4; Name=PowerShell; AwardName=; AwardCategory=}
 StartDate              : 2017-12-06T00:00:00
 Title                  : Test6
-ReferenceUrl           : https://github.com/lazywinadmin/MVP
+ReferenceUrl           : https://github.com/#/MVP
 Visibility             : @{Id=299600000; Description=Public; LocalizeKey=}
 AnnualQuantity         : 1
 SecondAnnualQuantity   : 0
@@ -1197,7 +1197,7 @@ ContributionType       : @{Id=df6464de-179a-e411-bbc8-6c3be5a82b68; Name=Blog Si
 ContributionTechnology : @{Id=7cc301bb-189a-e411-93f2-9cb65495d3c4; Name=PowerShell; AwardName=; AwardCategory=}
 StartDate              : 2017-12-07T00:00:00
 Title                  : Test7
-ReferenceUrl           : https://github.com/lazywinadmin/MVP
+ReferenceUrl           : https://github.com/#/MVP
 Visibility             : @{Id=299600000; Description=Public; LocalizeKey=}
 AnnualQuantity         : 1
 SecondAnnualQuantity   : 0
@@ -1210,7 +1210,7 @@ ContributionType       : @{Id=df6464de-179a-e411-bbc8-6c3be5a82b68; Name=Blog Si
 ContributionTechnology : @{Id=7cc301bb-189a-e411-93f2-9cb65495d3c4; Name=PowerShell; AwardName=; AwardCategory=}
 StartDate              : 2017-12-08T00:00:00
 Title                  : Test8
-ReferenceUrl           : https://github.com/lazywinadmin/MVP
+ReferenceUrl           : https://github.com/#/MVP
 Visibility             : @{Id=299600000; Description=Public; LocalizeKey=}
 AnnualQuantity         : 1
 SecondAnnualQuantity   : 0
@@ -1223,7 +1223,7 @@ ContributionType       : @{Id=df6464de-179a-e411-bbc8-6c3be5a82b68; Name=Blog Si
 ContributionTechnology : @{Id=7cc301bb-189a-e411-93f2-9cb65495d3c4; Name=PowerShell; AwardName=; AwardCategory=}
 StartDate              : 2017-12-09T00:00:00
 Title                  : Test9
-ReferenceUrl           : https://github.com/lazywinadmin/MVP
+ReferenceUrl           : https://github.com/#/MVP
 Visibility             : @{Id=299600000; Description=Public; LocalizeKey=}
 AnnualQuantity         : 1
 SecondAnnualQuantity   : 0
@@ -1236,7 +1236,7 @@ ContributionType       : @{Id=df6464de-179a-e411-bbc8-6c3be5a82b68; Name=Blog Si
 ContributionTechnology : @{Id=7cc301bb-189a-e411-93f2-9cb65495d3c4; Name=PowerShell; AwardName=; AwardCategory=}
 StartDate              : 2017-12-10T00:00:00
 Title                  : Test10
-ReferenceUrl           : https://github.com/lazywinadmin/MVP
+ReferenceUrl           : https://github.com/#/MVP
 Visibility             : @{Id=299600000; Description=Public; LocalizeKey=}
 AnnualQuantity         : 1
 SecondAnnualQuantity   : 0

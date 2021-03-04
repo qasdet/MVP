@@ -33,7 +33,7 @@ Function Test-MVPContribution {
     Returns the matching contribution, rather than a boolean value
 
 .EXAMPLE
-    Test-MVPContribution -Title 'PowerShell Command Precedence' -ReferenceUrl 'https://lazywinadmin.com/2017/06/CommandPrecedence.html'
+    Test-MVPContribution -Title 'PowerShell Command Precedence' -ReferenceUrl 'https://#.com/2017/06/CommandPrecedence.html'
 
     This command returns $true if a contribution is found with both a matching title and url
 
@@ -43,7 +43,7 @@ Function Test-MVPContribution {
     This command returns the matching contribution object if it is found
 
 .NOTES
-    https://github.com/lazywinadmin/MVP
+    https://github.com/#/MVP
 #>
     [CmdletBinding()]
     Param(

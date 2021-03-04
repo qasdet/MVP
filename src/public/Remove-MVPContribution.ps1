@@ -13,7 +13,7 @@
         Remove-MVPContribution -ID 123456
 
     .NOTES
-        https://github.com/lazywinadmin/MVP
+        https://github.com/#/MVP
 #>
     [CmdletBinding(SupportsShouldProcess=$true, ConfirmImpact = 'High')]
     Param(

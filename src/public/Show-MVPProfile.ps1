@@ -17,7 +17,7 @@ function Show-MVPProfile {
         .EXAMPLE
             Show-MVPProfile -ID 5000475, 5000890
 
-            It shows the profiles for Francois-Xavier Cat and Emin Atac
+            It shows the profiles for # Cat and Emin Atac
 
         .EXAMPLE
             Get-MVPProfile -ID 4025267 | Show-MVPProfile

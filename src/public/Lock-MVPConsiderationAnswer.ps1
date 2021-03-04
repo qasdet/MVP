@@ -12,7 +12,7 @@ Function Lock-MVPConsiderationAnswer {
     This will submit and finalize all answers for MVP award consideration questions. No changes will be possible after execution.
 
     .NOTES
-        https://github.com/lazywinadmin/MVP
+        https://github.com/#/MVP
 #>
 [CmdletBinding(SupportsShouldProcess = $true,
                ConfirmImpact = 'High')]

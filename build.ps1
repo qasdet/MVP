@@ -5,7 +5,7 @@ Used to start the build of a PowerShell Module
 This script will install dependencies using PSDepend module and start the build tasks using InvokeBuild module
 .NOTES
 Change History
--1.0 | 2019/06/17 | Francois-Xavier Cat
+-1.0 | 2019/06/17 | # Cat
     Initial version
 #>
 [CmdletBinding()]
@@ -21,11 +21,11 @@ try{
     ################
     # EDIT THIS PART
     $moduleName = "MVP" # get from source control or module ?
-    $author = 'Francois-Xavier Cat' # fetch from source or module
+    $author = '# Cat' # fetch from source or module
     $description = 'MVP is a PowerShell module to interact with the Microsoft MVP website' # fetch from module ?
-    $companyName = 'lazywinadmin.com' # fetch from module ?
-    $projectUri = "https://github.com/lazywinadmin/$moduleName" # get from module of from source control, env var
-    $licenseUri = "https://github.com/lazywinadmin/$moduleName/blob/master/LICENSE.md"
+    $companyName = '#.com' # fetch from module ?
+    $projectUri = "https://github.com/#/$moduleName" # get from module of from source control, env var
+    $licenseUri = "https://github.com/#/$moduleName/blob/master/LICENSE.md"
     $tags = @('MVP', 'MicrosoftMVP')
     ################
 

@@ -72,7 +72,7 @@ Param(
     [String]$Description='Description sample',
 
     [Parameter()]
-    [String]$ReferenceUrl='https://github.com/lazywinadmin/MVP',
+    [String]$ReferenceUrl='https://github.com/#/MVP',
 
     [Parameter()]
     [String]$AnnualQuantity='0',

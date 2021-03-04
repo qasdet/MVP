@@ -17,7 +17,7 @@
 Set-MVPConfiguration -SubscriptionKey $myKey
 
 .NOTES
-    https://github.com/lazywinadmin/MVP
+    https://github.com/#/MVP
 #>
 [CmdletBinding(SupportsShouldProcess=$true)]
 PARAM (

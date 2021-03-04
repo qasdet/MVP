@@ -17,7 +17,7 @@
     .EXAMPLE
         Get-MVPProfile -ID 5000475
 
-        It gets the public profile of Francois-Xavier Cat
+        It gets the public profile of # Cat
 
     .EXAMPLE
         Get-MVPProfile -ID '5000890'

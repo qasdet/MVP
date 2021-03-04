@@ -21,7 +21,7 @@ Function New-MVPConsiderationAnswer {
     This will create a new answer to an MVP award consideration question using the current session opened by Set-MVPConfiguration
 
     .NOTES
-        https://github.com/lazywinadmin/MVP
+        https://github.com/#/MVP
 #>
 [CmdletBinding(SupportsShouldProcess=$true)]
 Param(

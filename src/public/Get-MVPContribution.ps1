@@ -26,7 +26,7 @@
     It gets your contribution id 631670
 
 .NOTES
-    https://github.com/lazywinadmin/MVP
+    https://github.com/#/MVP
 #>
 [CmdletBinding(DefaultParameterSetName='All')]
 Param(

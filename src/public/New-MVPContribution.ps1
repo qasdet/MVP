@@ -52,7 +52,7 @@
         startdate ='2018/10/10'
         Title='Test from mvpapi.azure-api.net'
         Description = 'Description sample'
-        ReferenceUrl='https://github.com/lazywinadmin/MVP'
+        ReferenceUrl='https://github.com/#/MVP'
         AnnualQuantity='1'
         SecondAnnualQuantity='0'
         AnnualReach = '0'
@@ -66,7 +66,7 @@
     This will create a new MVP Contribution using the current session opened by Set-MVPConfiguration
 
     .NOTES
-        https://github.com/lazywinadmin/MVP
+        https://github.com/#/MVP
 #>
 [CmdletBinding(SupportsShouldProcess=$true)]
 Param(
@@ -80,7 +80,7 @@ Param(
     [String]$Description='Description sample',
 
     [Parameter(ValueFromPipelineByPropertyName=$true)]
-    [String]$ReferenceUrl='https://github.com/lazywinadmin/MVP',
+    [String]$ReferenceUrl='https://github.com/#/MVP',
 
     [Parameter(ValueFromPipelineByPropertyName=$true)]
     [String]$AnnualQuantity='1',

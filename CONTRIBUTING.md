@@ -1,6 +1,6 @@
 # Introduction
 
-Thanks for considering contributing to this project! My name is Francois-Xavier Cat ([@lazywinadmin](https://github.com/lazywinadmin)), and I'm excited you're interested in improving something I've written.
+Thanks for considering contributing to this project! My name is # Cat ([@#](https://github.com/#)), and I'm excited you're interested in improving something I've written.
 
 I'm happy to consider any contributions, especially ones that add functionality or fix bugs.
 
